@@ -1,7 +1,3 @@
-Here's a sample README file for your Caesar Cipher encryption and decryption code:
-
----
-
 # Caesar Cipher Encryption and Decryption
 
 This repository contains a Python script that implements the Caesar cipher algorithm, a classic method of encryption and decryption. The script allows users to input a message and a shift value, and it can either encrypt or decrypt the message using the Caesar cipher technique.
@@ -28,7 +24,7 @@ No additional libraries are required to run this script. It only requires Python
 2. **Run the Script:**
 
    ```bash
-   python caesar_cipher.py
+   python caesarcipher.py
    ```
 
 3. **Input Parameters:**
