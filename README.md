@@ -21,6 +21,7 @@ pip install pillow numpy
 Clone the Repository:
 
 git clone https://github.com/yourusername/image-encryption-decryption.git
+
 cd image-encryption-decryption
 
 Run the Script:
