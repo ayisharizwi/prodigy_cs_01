@@ -26,6 +26,7 @@ git clone https://github.com/yourusername/your-repo.git
 
 cd image-encryption-decryption
 
+```
 Run the Script:
 
 
