@@ -24,7 +24,7 @@ pip install pillow numpy
 git clone https://github.com/ayisharizwi/prodigy_cs_01.git
 
 
-cd image-encryption-decryption
+cd prodigy_cs_01
 
 ```
 Run the Script:
