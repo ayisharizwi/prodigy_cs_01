@@ -30,7 +30,7 @@ cd prodigy_cs_01
 Run the Script:
 
 
-python image_encryption.py
+python caesarcipher.py
 
 
 # Example:
