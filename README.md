@@ -13,7 +13,8 @@ Pillow (Python Imaging Library)
 NumPy
 You can install these packages using pip:
 pip install pillow numpy
-Usage
+# Usage
+
 Clone the Repository:
 
 git clone https://github.com/yourusername/image-encryption-decryption.git
@@ -30,8 +31,11 @@ Input Parameters:
 The script will prompt you for the following input:
 
 Path to the input image.
+
 Path to save the encrypted image.
+
 Path to save the decrypted image.
+
 Two encryption keys (integers).
 
 # Example:
@@ -39,10 +43,15 @@ Two encryption keys (integers).
 If you have an image example.png in the current directory:
 
 Enter the path to the input image: example.png
+
 Enter the path to save the encrypted image: encrypted.png
+
 Enter the path to save the decrypted image: decrypted.png
+
 Enter the first encryption key (integer): 123
+
 Enter the second encryption key (integer): 456
+
 After running, the encrypted image will be saved as encrypted.png, and the decrypted image will be saved as decrypted.png.
 
 # How It Works
