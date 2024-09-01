@@ -10,8 +10,11 @@ Save Image: Converts the processed NumPy array back into an image and saves it t
 To run this script, you need to have Python installed along with the following packages:
 
 Pillow (Python Imaging Library)
+
 NumPy
+
 You can install these packages using pip:
+
 pip install pillow numpy
 # Usage
 
