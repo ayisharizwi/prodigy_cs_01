@@ -1,67 +1,74 @@
-# Image Encryption and Decryption
-This repository contains a Python script that performs encryption and decryption of images using a combination of XOR, addition, and pixel shuffling techniques. The script uses the Python Imaging Library (PIL) and NumPy to manipulate image data.
+Here's a sample README file for your Caesar Cipher encryption and decryption code:
 
-# Features
-Load Image: Converts an image file into a NumPy array for processing.
-Encrypt Image: Encrypts the image using a combination of XOR operations, pixel value addition, and pixel shuffling.
-Decrypt Image: Decrypts the image by reversing the encryption process.
-Save Image: Converts the processed NumPy array back into an image and saves it to the specified path.
-# Installation
-To run this script, you need to have Python installed along with the following packages:
+---
 
-Pillow (Python Imaging Library)
+# Caesar Cipher Encryption and Decryption
 
-NumPy
+This repository contains a Python script that implements the Caesar cipher algorithm, a classic method of encryption and decryption. The script allows users to input a message and a shift value, and it can either encrypt or decrypt the message using the Caesar cipher technique.
 
-You can install these packages using pip:
+## Features
 
-pip install pillow numpy
-# Usage
+- **Encrypt a Message**: Shift each letter in the message by a specified number of places down the alphabet.
+- **Decrypt a Message**: Reverse the encryption process to retrieve the original message.
+- **Supports Uppercase and Lowercase**: Handles both uppercase and lowercase letters while leaving non-alphabetic characters unchanged.
+
+## Installation
+
+No additional libraries are required to run this script. It only requires Python 3.
+
 ## Usage
 
-### 1. To get the code
-```bash
-git clone https://github.com/ayisharizwi/prodigy_cs_01.git
+1. **Clone the Repository:**
 
+   ```bash
+   git clone https://github.com/ayisharizwi/prodigy_cs_01.git
+   cd prodigy_cs_01
+   ```
 
-cd prodigy_cs_01
+2. **Run the Script:**
 
-```
-Run the Script:
-'''
+   ```bash
+   python caesar_cipher.py
+   ```
 
-python caesarcipher.py
+3. **Input Parameters:**
 
-'''
-# Example:
+   The script will prompt you for the following input:
 
-If you have an image example.png in the current directory:
+   - **Message**: The text you want to encrypt or decrypt.
+   - **Shift Value**: The number of positions to shift each letter. This value should be an integer.
 
-Enter the path to the input image: example.png
+4. **Example:**
 
-Enter the path to save the encrypted image: encrypted.png
+   ```bash
+   Enter your message: Hello World
+   Enter the shift value: 3
+   ```
 
-Enter the path to save the decrypted image: decrypted.png
+   The output will be:
 
-Enter the first encryption key (integer): 123
+   ```
+   Encrypted Message: Khoor Zruog
+   Decrypted Message: Hello World
+   ```
 
-Enter the second encryption key (integer): 456
+## How It Works
 
-After running, the encrypted image will be saved as encrypted.png, and the decrypted image will be saved as decrypted.png.
+1. **Caesar Cipher Algorithm:**
+   - The Caesar cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet.
+   - The shift value determines how far each letter is moved.
+   - The script supports both encryption and decryption by reversing the shift during decryption.
 
-# How It Works
-1.Encryption:
+2. **Encryption:**
+   - The script shifts each letter in the message by the specified shift value.
+   - Uppercase and lowercase letters are handled separately, preserving their case.
+   - Non-alphabetic characters (e.g., spaces, punctuation) remain unchanged.
 
-The image is first XORed with key1.
+3. **Decryption:**
+   - The decryption process simply shifts the letters in the opposite direction, reversing the encryption.
 
-Then, key2 is added to the pixel values.
+## Customization
 
-The pixels are shuffled using a permutation based on key1.
-
-2.Decryption:
-
-The pixel shuffling is reversed.
-
-key2 is subtracted from the pixel values.
-
-The image is XORed again with key1 to retrieve the original image.
+- **Shift Value**: You can experiment with different shift values to see how they affect the encryption and decryption.
+- **Mode Selection**: The script is set to encrypt first and then decrypt, but you can modify it to only perform one operation if needed.
+.
