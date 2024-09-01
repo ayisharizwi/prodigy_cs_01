@@ -21,7 +21,7 @@ pip install pillow numpy
 
 ### 1. To get the code
 ```bash
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/ayisharizwi/prodigy_cs_01.git
 
 
 cd image-encryption-decryption
