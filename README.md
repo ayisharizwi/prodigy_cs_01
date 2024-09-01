@@ -29,18 +29,6 @@ Run the Script:
 python image_encryption.py
 
 
-Input Parameters:
-
-The script will prompt you for the following input:
-
-Path to the input image.
-
-Path to save the encrypted image.
-
-Path to save the decrypted image.
-
-Two encryption keys (integers).
-
 # Example:
 
 If you have an image example.png in the current directory:
@@ -58,13 +46,18 @@ Enter the second encryption key (integer): 456
 After running, the encrypted image will be saved as encrypted.png, and the decrypted image will be saved as decrypted.png.
 
 # How It Works
-Encryption:
+1.Encryption:
 
 The image is first XORed with key1.
+
 Then, key2 is added to the pixel values.
+
 The pixels are shuffled using a permutation based on key1.
-Decryption:
+
+2.Decryption:
 
 The pixel shuffling is reversed.
+
 key2 is subtracted from the pixel values.
+
 The image is XORed again with key1 to retrieve the original image.
