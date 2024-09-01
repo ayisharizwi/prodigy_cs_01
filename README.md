@@ -17,10 +17,12 @@ You can install these packages using pip:
 
 pip install pillow numpy
 # Usage
+## Usage
 
-Clone the Repository:
+### 1. To get the code
+```bash
+git clone https://github.com/yourusername/your-repo.git
 
-git clone https://github.com/yourusername/image-encryption-decryption.git
 
 cd image-encryption-decryption
 
